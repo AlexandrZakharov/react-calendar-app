@@ -1,0 +1,17 @@
+.currentMonthWrapper {
+    background: rgb(41, 87, 172);
+}
+
+.currentMonthTitle {
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    font-size: 20px;
+}
+
+.currentMonth {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    padding: 0 10px;
+}

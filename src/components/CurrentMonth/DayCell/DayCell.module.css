@@ -1,0 +1,11 @@
+.dayCell {
+    border: 1px solid #000;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dayCellActive {
+    background: rgb(136, 12, 12);
+}
